@@ -1,3 +1,6 @@
+fix icon bug  
+fix puppetter ver
+
 <div align="center">
   <img src="./assets/logo.png" width="480px" />
 </div>

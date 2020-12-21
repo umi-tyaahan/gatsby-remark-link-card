@@ -58,7 +58,7 @@ const getPageData = async (browser, url) => {
         "meta[property='og:image']",
         el => el.content
       ),
-      page.$eval("link[rel='shortcut icon']", el => el.href)
+      page.$eval("link[rel='icon']", el => el.href)
     ])
     return {
       title,
