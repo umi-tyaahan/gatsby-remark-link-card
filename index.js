@@ -1,4 +1,6 @@
 const visit = require('unist-util-visit')
+ // this is not good resolution : https://stackoverflow.com/questions/62833136/eventlistener-still-on-after-that-browser-has-been-manually-closed-puppeteer
+process.setMaxListeners(30);
 const puppeteer = require('puppeteer')
 
 const { defaultOption } = require('./shared/defaultOption')
